@@ -23,13 +23,3 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
-Cypress.Commands.add('mockAddNewTodoItem', (item) => {
-    cy.intercept('POST', '/api/todo', {
-      statusCode: 201,
-      body: {
-        title: item,
-        completed: false,
-      },
-    }).as('addNewTodoItem');
-  });
-  

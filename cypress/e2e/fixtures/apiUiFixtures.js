@@ -1,15 +1,13 @@
-// cypress/e2e/fixtures/apiUiFixtures.js
-import { Ui } from '../ui/ui';
 import { TodoApi } from '../api/todoApi';
 import { TodoUi } from '../ui/todoUi';
 
 class ApiUiFixtures {
   constructor() {
     this.api = {
-      todo: new TodoApi(),
+      todo: new TodoApi(), // You can add other API objects here
     };
     this.ui = {
-      todo: new TodoUi(),
+      todo: new TodoUi(), // You can add other UI objects here
     };
   }
 }

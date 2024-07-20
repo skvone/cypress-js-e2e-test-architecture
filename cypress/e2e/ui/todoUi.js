@@ -1,6 +1,6 @@
 import Ui from './ui';
 
-// Константы для локаторов
+// Constants for element locators on todo page
 const LOCATORS = {
   TODO_ITEMS: '.todo-list li',
   NEW_TODO_INPUT: '[data-test=new-todo]',
@@ -8,6 +8,9 @@ const LOCATORS = {
   ACTIVE_FILTER: 'Active',
   COMPLETED_FILTER: 'Completed',
 };
+
+// The TodoUi class contains methods for interacting with the UI of the todo page
+// Here you can add any methods to work with UI elements
 
 class TodoUi extends Ui {
   visit() {

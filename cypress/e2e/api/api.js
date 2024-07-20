@@ -1,6 +1,6 @@
 class Api {
     constructor() {
-      // Инициализация
+      // The Api class can contain common methods and properties for working with the API
     }
   }
   

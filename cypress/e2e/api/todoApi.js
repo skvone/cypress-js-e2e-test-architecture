@@ -1,4 +1,3 @@
-// cypress/e2e/api/todoApi.js
 class TodoApi {
   assertGetTodoPageStatus() {
     return cy.request({
