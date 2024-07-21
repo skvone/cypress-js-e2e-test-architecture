@@ -1,3 +1,4 @@
+// Import the Ui base class
 import Ui from './ui';
 
 // Constants for element locators on todo page
